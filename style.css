@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    flex-direction: column;
+    border-color: #1F2937;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: hsl(215, 28%, 17%);
+    display: flex;
+    align-content: center;
+}
+
+footer {
+    background-color: #1F2937;
+}
+
+.one {
+    background-color: #1F2937;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#oneimg {
+    width: 480px;
+    height: 230px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: auto;
+    gap: 32px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.head {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.hleft {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 135px;
+}
+
+.hright {
+    padding-right: 108px;
+}
+
+.hleft,
+.hright {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.image {
+    width: 150px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.signup {
+    color: #F9FAF8;
+    border-radius: 6px;
+    background-color: #3882F6;
+    border: 0;
+    width: 80px;
+    height: 25px;
+}
+
+#herot {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #F9FAF8;
+    display: flex;
+}
+
+#herop {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 180px;
+}
+
+.heroleft {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding-left: 135px;
+}
