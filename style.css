@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     border-color: #1F2937;
     margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: system-ui;
 }
 
 header {
@@ -19,8 +19,6 @@ footer {
 .one {
     background-color: #1F2937;
     padding-bottom: 100px;
-    display: flex;
-    align-items: center;
 }
 
 #oneimg {
@@ -70,7 +68,7 @@ a {
 }
 
 .image {
-    width: 150px;
+    width: 170px;
     height: 180px;
     border-radius: 15px;
 }
@@ -80,8 +78,10 @@ a {
     border-radius: 6px;
     background-color: #3882F6;
     border: 0;
-    width: 80px;
-    height: 25px;
+    width: 120px;
+    padding: 7px 1em;
+    font-weight: bolder;
+    font-size: 18px;
 }
 
 #herot {
@@ -107,4 +107,101 @@ a {
     flex-direction: column;
     max-width: 400px;
     padding-left: 135px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin: 80px 0px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.info {
+    max-width: 200px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.quotet {
+    font-size: 36px;
+    font-family: light italic;
+    color: #1F2937;
+    max-width: 700px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.quotes {
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1F2937;
+    margin-left: 550px;
+}
+
+.callba {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.call {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 900px;
+    height: 130px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.callb {
+    color: #F9FAF8;
+    border-radius: 6px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    width: 120px;
+    padding: 7px 1em;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.callh {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.callp {
+    margin-top: 3px;
+}
+
+.callright {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 100px;
+    flex: 1;
+}
+
+.callleft {
+    padding-left: 100px;
+}
+
+.footer {
+    padding: 25px 0;
+    text-align: center;
+    color: #F9FAF8;
 }
