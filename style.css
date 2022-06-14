@@ -4,6 +4,7 @@ body {
     border-color: #1F2937;
     margin: 0;
     font-family: system-ui;
+    height: 100vh;
 }
 
 header {
@@ -218,18 +219,7 @@ h3 {
     padding: 25px 0;
     text-align: center;
     color: #F9FAF8;
-    margin-top: auto;
     height: 40px;
-    position: absolute;
-    bottom: 0;
     width: 100%;
-}
-
-#page-container {
-    position: relative;
-    min-height: 100vh;
-}
-
-#content-wrap {
-    padding-bottom: 40px;
+    margin-top: auto;
 }
