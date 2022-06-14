@@ -219,5 +219,17 @@ h3 {
     text-align: center;
     color: #F9FAF8;
     margin-top: auto;
-    min-height: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 40px;
 }
