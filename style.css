@@ -101,10 +101,10 @@ a {
     color: #E5E7EB;
 }
 
-.hero {
+.one {
     display: flex;
     align-items: center;
-    gap: 180px;
+    justify-content: space-between;
 }
 
 .heroleft {
@@ -112,6 +112,10 @@ a {
     flex-direction: column;
     max-width: 400px;
     padding-left: 135px;
+}
+
+.heroright {
+    padding-right: 100px;
 }
 
 h3 {
