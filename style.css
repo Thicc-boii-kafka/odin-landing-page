@@ -84,6 +84,11 @@ a {
     font-size: 18px;
 }
 
+.signup:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0.7s;
+}
+
 #herot {
     font-weight: bolder;
     font-size: 48px;
@@ -179,6 +184,11 @@ h3 {
     font-size: 18px;
 }
 
+.callb:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0.7s;
+}
+
 .callh {
     font-size: 24px;
     margin-bottom: 0px;
@@ -204,4 +214,6 @@ h3 {
     padding: 25px 0;
     text-align: center;
     color: #F9FAF8;
+    margin-top: auto;
+    min-height: 40px;
 }
